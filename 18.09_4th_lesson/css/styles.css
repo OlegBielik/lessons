@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+.img_head {
+  width: 1360px;
+}
+
+.img_any {
+  width: 708px;
+}
+
+* {
+  color: fuchsia;
+}
+
+li {
+  color: blue;
+}
+
+#bet {
+  color: red;
+}
+
+.team {
+  color: yellow;
+}
+
+p.someclass {
+  color: aqua;
+}
+
+.somecolor,
+.somecolorclass,
+span {
+  color: blueviolet;
+}
+
+.somecolor span {
+  color: darkolivegreen;
+}
+
+.somecolorclass .clincl {
+  color: yellowgreen;
+}
+
+.head_objects * {
+  color: orange;
+}
+
+.alltags>span {
+  color: red;
+}
+
+.below~span {
+  color: yellow;
+}
+
+.below+span {
+  color: burlywood;
+}
+
+.class1.class2 {
+  color: turquoise;
+}
