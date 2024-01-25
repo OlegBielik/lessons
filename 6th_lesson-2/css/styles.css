@@ -1,0 +1,273 @@
+/* ------------------импорт отдельным файлом----------------- */
+@import url(fonts.css);
+
+
+/* ------------------загрузка через plugin vsc--------------- */
+/* не пойму почему через плагин не пишеться автоматом &display=swap ?? */
+
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic");
+
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap);
+
+
+/* ------------------загрузка через ссылку в fonts.google---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
+@import url("reset.css");
+
+
+/* ---------------ТЕКСТ-------------- */
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #7D7D7D;
+}
+
+.title-main,
+.sub-title-main,
+.sub-title-advantages,
+.content-advantages {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.title-main {
+  font-size: 30px;
+}
+
+.sub-title-main,
+.content-advantages {
+  font-size: 20px;
+}
+
+.sub-title-advantages {
+  font-size: 25px;
+}
+
+.main-text,
+.sub-main-text {
+  line-height: 1.46;
+}
+
+.title-main,
+.sub-title-advantages {
+  color: #37393F;
+}
+
+.sub-title-main {
+  color: #6B77E5;
+}
+
+.content-advantages {
+  color: #40DDB6;
+  height: 54px;
+  padding-bottom: 5px;
+}
+
+/* -----------размеры и отступы------------ */
+
+
+
+.block-consulting-website {
+  width: 692px;
+  margin: 150px 350px 50px 50px;
+}
+
+.img-main {
+  width: 692px;
+  height: 453.5px;
+  margin-bottom: 37px;
+}
+
+/* !.title-main в примере в Фигме располагается выше чем у меня, добавил падинг-бот-10пх сам от себя, вроде выглядит лучше, как правильно сделать не пойму! */
+
+.title-main {
+  margin-bottom: 3px;
+  padding-bottom: 10px;
+}
+
+.block-cosulting-main {
+  margin-bottom: 42px;
+}
+
+.sub-title-main {
+  margin-bottom: 12px;
+}
+
+.block-consulting-content {
+  margin-bottom: 40px;
+  height: 120px;
+}
+
+/* !проблема тут! при установке margin-right больше чем 23px переносится текст под картинку, хотя должно быть 29px, не пойму что не так!
+на это у меня ушли целые сутки */
+
+.img-sub-main {
+  width: 331px;
+  height: 261.5px;
+  margin: 0.75px 23px 0.75px 0;
+}
+
+
+.block-consulting-advantages-content {
+  width: 332px;
+  display: inline-block;
+}
+
+
+
+.sub-title-advantages {
+  margin-bottom: 15px;
+}
+
+.block-consulting-adv-title {
+  margin-bottom: 21px;
+}
+
+.block-consulting-content-list {
+  width: 313px;
+}
+
+/* !margin-top -5px добавил от себя чтобы выравнять с макетом, как правильно было бы сделать? */
+
+.vector1,
+.vector2,
+.vector3 {
+  width: 27px;
+  height: 27px;
+  margin-top: -5px;
+}
+
+.list1 {
+  margin-bottom: 30px;
+  padding: 2.5px 0 2.5px 0;
+}
+
+.list2 {
+  width: 257px;
+  margin-bottom: 30px;
+  padding: 2.5px 0 2.5px 0;
+}
+
+.list3 {
+  width: 268px;
+  padding: 2.5px 0 2.5px 0;
+}
+
+/* !Jewellery layout */
+
+
+.block-jewellery {
+  font-family: "Inter", sans-serif;
+  background-color: #FFF9F4;
+  /* !!!не понятно, почему не могу указать паддинг, как на примере, чтобы в стороны был 215рх, картинка!
+  кстати потрачено на поиски причины еще 1 сутки */
+  padding: 140px 115px 140px 115px;
+}
+
+
+/* убираем фантомный отступ, который видимо не убран в верхнем макете, из за чего мучился */
+
+.block-jewellery {
+  font-size: 0;
+}
+
+/* ------------текст----------- */
+
+
+/* !!! НЕ отображается ШРИФТ ниже если его скопировать с "+", которые идут в плагине*/
+.jew-title-2 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 59px;
+  line-height: 1.47;
+  color: #0e333d;
+  text-transform: capitalize;
+
+}
+
+.jew-title-1 {
+  font-size: 28px;
+  color: #D06B00;
+  text-transform: uppercase;
+}
+
+.jew-content {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #474747;
+}
+
+/* ---------размеры и отступы----------- */
+
+.jew-img,
+.block-jewellery-img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.block-jewellery-information {
+  width: 563px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.block-jewellery-information {
+  margin: 21px 38px 21px 0;
+}
+
+.jew-title-1 {
+  margin-bottom: 13px;
+}
+
+.block-jew-titles {
+  margin-bottom: 25px;
+}
+
+.img-jew-1 {
+  margin-right: 22px;
+}
+
+/* !header */
+.head {
+  background-color: hsl(225, 7%, 23%, 0.75);
+  color: #f4fff8d4;
+  padding: 40px;
+  font-weight: 700;
+}
+
+#examples {
+  background-color: brown;
+}
+
+.footer1 {
+  max-width: 200px;
+  max-height: 100px;
+  overflow: auto;
+  color: aliceblue;
+  display: inline-block;
+}
+
+.foot-img1 {
+  max-width: 100px;
+  max-height: 100px;
+  overflow: scroll;
+  display: inline-block;
+}
+
+.img-expl {
+  padding: 20%;
+}
+
+.foot-img2 {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 50px;
+}
