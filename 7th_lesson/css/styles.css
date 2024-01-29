@@ -1,0 +1,364 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #7D7D7D;
+  font-size: 18px;
+  line-height: 1.46;
+}
+
+/* произвольные отступы, чтобы от краев вьюпорта убрать и отцентровка */
+
+.block-consulting-layout {
+  max-width: 890px;
+  padding: 50px 30px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #37393f;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27;
+  margin-bottom: 13px;
+}
+
+.list {
+  font-weight: 500;
+  padding-left: 16px;
+}
+
+.text,
+.list {
+  margin-bottom: 35px;
+}
+
+/* намерял линейкой примерно 30рх между параграфами */
+
+.text-first-layout {
+  margin-bottom: 30px;
+}
+
+
+
+/* !второй макет! */
+/* произвольные отступы, чтобы от краев вьюпорта убрать и отцентровка */
+
+.block-consulting-layout-interesting {
+  max-width: 1258px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.block-title {
+  width: 296px;
+  margin: 70px auto;
+}
+
+.title-commentare {
+  width: 202px;
+  height: 22px;
+  font-size: 0;
+  margin: 0 47px 16px;
+}
+
+/*? как еще то можно сделать? */
+.mini-square {
+  width: 12px;
+  height: 12px;
+  background-color: #40ddb6;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 5px 6px 5px 0;
+}
+
+
+.subtitle {
+  display: inline-block;
+  font-weight: 500;
+  line-height: normal;
+  color: #37393F;
+  font-size: 18px;
+}
+
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.title,
+.main-subtitle,
+.sub-main-subtitle {
+  font-family: 'Poppins', serif;
+  color: #37393f;
+}
+
+.main-subtitle {
+  font-size: 40px;
+  margin-bottom: 11px;
+}
+
+.title,
+.main-subtitle,
+.sub-main-subtitle {
+  font-weight: 700;
+}
+
+.title,
+.main-subtitle {
+  line-height: 1.21;
+}
+
+.sub-main-subtitle {
+  line-height: normal;
+
+}
+
+.text-subtitle,
+.sub-main-subtitle {
+  font-size: 30px;
+}
+
+.text-subtitle,
+.text-links {
+  color: #40DDB6;
+}
+
+/* !умышленно указал не по макету, а по меньшему margin от каждого параграфа, так как может изменяться количество текста */
+
+.text-links,
+.text-par {
+  margin-bottom: 24px;
+}
+
+.sub-main-subtitle {
+  margin-bottom: 8px;
+}
+
+.block-photo,
+.block-icons {
+  margin-bottom: 100px;
+}
+
+
+
+
+/* !ETHIOPIA */
+/* произвольные отступы, чтобы от краев вьюпорта убрать и отцентровка */
+.block-ethiopia-layout {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Caustens', sans-serif;
+  font-size: 20px;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  color: #807D7E;
+}
+
+.block-title-ethiopia {
+  font-size: 0;
+  height: 31px;
+  margin-bottom: 30px;
+}
+
+/* вынужденно добавил отрицательный margin чтобы соответствовать макету, как отцентровать по высоте текст так и не понял */
+.oval {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8A33FD;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: -4px;
+}
+
+.title-ethiopia {
+  font-size: 28px;
+  display: inline-block;
+  color: #3C4242;
+  line-height: 1.19;
+  letter-spacing: 0.56px;
+  max-width: 552px;
+  height: 31px;
+}
+
+/* TODO */
+
+/* ! чтото не так со шрифтом или я его неправильно присоединил и некорректные апостороф получился и тире */
+
+.title-ethiopia,
+.subtitle-ethiopia {
+  font-family: 'coresansc65', sans-serif;
+  font-weight: 600;
+}
+
+.mark-ethiopia {
+  font-weight: 700;
+}
+
+/* кажется, логично было бы от каждого блока задать одинаковый отступ вниз, т.е. не отдельные 20 и 25рх */
+.block-online {
+  margin: 0 0 25px 21px;
+}
+
+.subtitle-ethiopia {
+  margin-bottom: 25px;
+}
+
+.text-ethiopia {
+  margin-bottom: 20px;
+}
+
+
+.block-one-stop {
+  margin: 0 0 20px 21px;
+}
+
+.more {
+  margin-left: 21px;
+}
+
+
+
+/* !Jewellery layout */
+
+/* произвольные отступы, чтобы от краев вьюпорта убрать и отцентровка */
+.block-jewellery-layout {
+  padding: 10px;
+  width: 1123px;
+  height: 539px;
+  margin: 0 auto;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 0px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.jew-content {
+  display: inline-block;
+  width: 503px;
+  margin: 70px 85px 0 0;
+}
+
+.subtitle-jew {
+  font-size: 20px;
+  color: #D58417;
+  margin-bottom: 27px;
+}
+
+.title-jew {
+  font-size: 64px;
+  color: #000;
+  width: 503px;
+  height: 128px;
+  margin-bottom: 31px;
+}
+
+.text-jew {
+  line-height: 1.4;
+  color: #606060;
+  width: 489px;
+  height: 174px;
+  font-size: 30px;
+}
+
+.left-img-container,
+.right-img-container {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 235px;
+  border: 1px solid #502203;
+}
+
+.left-img-container {
+  width: 177px;
+  height: 336px;
+  margin: 85px 30px 0 0;
+}
+
+.left-img {
+  margin-left: -10px;
+  margin-top: 14px;
+}
+
+.right-img-container {
+  width: 308px;
+  height: 506px;
+}
+
+.right-img {
+  margin-left: -10px;
+  margin-top: 13px;
+}
+
+/* хотя, для упрощения, можно было бы задать одинаковые параметры для этих двух картинок */
+
+
+/* !header/footer */
+header {
+  font-family: 'Cormorant Infant', serif;
+}
+
+.header {
+  font-weight: 700;
+  color: #224681a0;
+  font-size: 70px;
+  line-height: 1.46;
+  text-align: center;
+  border: 5px double #5f9391;
+  border-radius: 20px 20px 100px 100px;
+  box-shadow:
+    0 10px 10px 10px #626a6a inset,
+    0 20px 20px 10px #3d4242;
+  background-color: #c8f0f0;
+  outline: 2px solid #00b7ff;
+  margin-bottom: 50px;
+}
+
+.header-list {
+  color: #39713ed6;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-left: 100px;
+}
+
+.list1 {
+  margin-left: 5%;
+  opacity: 0.9;
+}
+
+.list2 {
+  margin-left: 30%;
+  opacity: 0.6;
+}
+
+.list3 {
+  margin-left: 60%;
+  opacity: 0.3;
+}
+
+.list4 {
+  margin-left: 80%;
+  opacity: 0;
+}
+
+footer {
+  display: inline-block;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 700;
+  color: #224681a0;
+  font-size: 70px;
+  line-height: 1.46;
+  margin-left: 45%;
+  border: 5px double #5f9391;
+  border-radius: 50%;
+  box-shadow:
+    0 10px 10px 10px #626a6a inset,
+    0 20px 20px 10px #3d4242;
+  background-color: #c8f0f0;
+  outline: 2px solid #00b7ff;
+  padding: 10px;
+}
