@@ -1,0 +1,502 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+/* !-------------------block consulting business plan--------------- */
+/* ---------------------text----------------- */
+
+.block-consulting-business-plan {
+  width: 1063px;
+  font-family: "Inter", sans-serif;
+  font-size: 0px;
+  color: #7D7D7D;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.csg-bp-title,
+.csg-bp-list-item,
+.csg-bp-subtitle {
+  font-family: "Poppins", sans-serif;
+}
+
+.csg-bp-title {
+  font-size: 40px;
+}
+
+.csg-bp-list-item,
+.csg-bp-subtitle {
+  font-size: 20px;
+}
+
+.csg-bp-title-comment,
+.csg-bp-text,
+.csg-bp-footer {
+  font-size: 18px;
+}
+
+.csg-bp-title,
+.csg-bp-title-comment,
+.csg-bp-list-item,
+.csg-bp-subtitle {
+  color: #37393F;
+}
+
+.csg-bp-footer {
+  color: #FFF;
+  text-align: center;
+}
+
+.csg-bp-title-comment {
+  font-weight: 500;
+  line-height: 1.22;
+}
+
+.csg-bp-title {
+  font-weight: 700;
+}
+
+.csg-subtitle,
+.csg-bp-footer {
+  font-weight: 600;
+}
+
+.csg-bp-title-comment,
+.csg-bp-title,
+.csg-bp-footer,
+.csg-subtitle {
+  text-transform: capitalize;
+}
+
+.csg-bp-title {
+  line-height: 1.21;
+}
+
+.csg-bp-text {
+  line-height: 1.46;
+}
+
+.csg-bp-list-item {
+  line-height: 1.65;
+}
+
+.csg-bp-subtitle {
+  line-height: 1.5;
+}
+
+.csg-bp-subtitle-text {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+/* --------------------- размеры и отступы ------------------- */
+
+.block-csg-bp-title {
+  width: 413px;
+  margin-bottom: 20px;
+}
+
+.square,
+.csg-bp-title-comment {
+  display: inline-block;
+}
+
+.csg-bp-title-comment {
+  margin: 0 0 16px 6px;
+}
+
+.square {
+  width: 12px;
+  height: 12px;
+  background-color: #40DDB6;
+  vertical-align: top;
+  margin-top: 4px;
+}
+
+.block-csg-bp-main-text {
+  width: 673px;
+  margin-bottom: 20px;
+}
+
+.csg-bp-text {
+  margin-bottom: 15px;
+}
+
+.csg-bp-list {
+  width: 392px;
+  margin-bottom: 43px;
+}
+
+.csg-bp-list-item {
+  margin-bottom: 23px;
+  padding-left: 35px;
+  background: url(../img/vector.svg) 0 3px no-repeat;
+}
+
+.csg-bp-info-left,
+.csg-bp-info-right {
+  display: inline-block;
+  border: 1px solid #E3E3E3
+}
+
+.csg-bp-info {
+  margin-bottom: 37px;
+}
+
+.csg-bp-info-left {
+  margin-right: 21px;
+  padding: 31px 32px 32px;
+}
+
+.csg-bp-info-right {
+  padding: 31px 37px 32px;
+}
+
+.csg-bp-footer {
+  padding: 21px 27px 22px;
+  width: 184px;
+  height: 65px;
+  background-color: #6B77E5;
+}
+
+.csg-bp-info-text-left {
+  width: 231px;
+  background: url(../img/certificate.svg) no-repeat;
+}
+
+.csg-bp-info-text-right {
+  width: 223px;
+  background: url(../img/cup.svg) no-repeat;
+}
+
+.csg-bp-info-text-left,
+.csg-bp-info-text-right {
+  padding-left: 58px;
+}
+
+.csg-bp-subtitle {
+  margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* !-------------------Block-consulting-project ------------------ */
+/* ---------------------text----------------- */
+.block-consulting-projects {
+  font-family: "Inter", sans-serif;
+  width: 1260px;
+  font-size: 0px;
+  color: #7D7D7D;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.46;
+}
+
+
+
+.csg-prj-title,
+.csg-prj-lt-title {
+  font-family: "Poppins", sans-serif;
+}
+
+.csg-prj-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+}
+
+.csg-prj-title-comment,
+.csg-prj-text {
+  font-size: 18px;
+}
+
+.csg-prj-lt-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+/* выставил другой line-height из за разницы с макетом, высчитав 22(рх)/14(font-size) */
+
+.csg-prj-date {
+  font-size: 14px;
+  background: url(../img/date.svg) no-repeat;
+  padding-left: 25px;
+  line-height: 1.57;
+}
+
+.csg-prj-title-comment {
+  font-weight: 500;
+  line-height: normal;
+}
+
+.csg-prj-title-comment,
+.csg-prj-title,
+.csg-prj-lt-title {
+  color: #37393F;
+}
+
+
+/* --------------------- размеры и отступы ------------------- */
+.block-prj-content {
+  width: 852px;
+  margin: 0 184px 47px;
+  text-align: center;
+}
+
+.csg-prj-title-comment {
+  display: inline-block;
+  padding-left: 6px;
+  margin-bottom: 14px;
+}
+
+.csg-prj-title {
+  margin-bottom: 14px;
+}
+
+.block-photo-top {
+  margin-bottom: 58px;
+}
+
+.csg-prj-photos {
+  display: inline-block;
+  margin-right: 34px;
+}
+
+.prj-img {
+  margin-bottom: 24px;
+}
+
+.csg-prj-lt-title {
+  margin-bottom: 10px;
+}
+
+.csg-prj-margin {
+  margin-right: -34px;
+}
+
+
+
+
+/* !------------ Block euphoria cloth ------------ */
+
+
+
+
+
+.block-euphoria-cloth {
+  width: 1219px;
+  height: 676px;
+  font-size: 0px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Causten", sans-serif;
+  color: #807D7E;
+  line-height: 1.675;
+  padding-left: 21px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+}
+
+.eu-cloth-title,
+.rectangle {
+  display: inline-block;
+}
+
+.eu-cloth-title,
+.eu-cloth-subtitle {
+  font-family: "coresansc65", sans-serif;
+  font-weight: 600;
+}
+
+.eu-cloth-title {
+  line-height: 1.2;
+  color: #3C4242;
+  font-size: 28px;
+  letter-spacing: 0.56px;
+  padding-left: 15px;
+}
+
+.eu-cloth-mark-text {
+  font-weight: 700;
+}
+
+.eu-cloth-subtitle,
+.eu-cloth-text,
+.eu-cloth-mark-text {
+  font-size: 20px;
+}
+
+
+.eu-cloth-title {
+  margin-bottom: 30px;
+}
+
+.eu-cloth-subtitle {
+  margin-bottom: 25px;
+}
+
+.eu-cloth-text {
+  margin-bottom: 20px;
+}
+
+.eu-margin-corr {
+  margin-bottom: 25px;
+}
+
+.eu-cloth-margin {
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+
+
+.rectangle {
+  width: 6px;
+  height: 28px;
+  border-radius: 10px;
+  background: #8A33FD;
+  margin-left: -21px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+
+/* ? не могу разобраться почему      vertical-align: middle; выставляет ниже границ      eu-cloth-title */
+
+
+/* !------------ Block euphoria sections ------------ */
+
+
+.block-euphoria-sections {
+  width: 1280px;
+  height: 680px;
+  font-size: 0px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.block-eu-sect-content {
+  font-family: "Causten", sans-serif;
+  color: #FFF;
+  width: 466px;
+  height: 282px;
+}
+
+.eu-section-title {
+  font-family: "coresansc75", sans-serif;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  margin-bottom: 30px;
+  height: 84px;
+}
+
+.eu-section-text {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+  line-height: 1.2;
+}
+
+.eu-section-button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3C4242;
+  width: 168px;
+  height: 46px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 12px 44px;
+  line-height: 1.222;
+}
+
+.eu-sect-left {
+  width: 614px;
+  height: 640px;
+  background: url(../img/big-left.png);
+  padding: 183px 74px 175px;
+
+}
+
+.eu-sect-right {
+  width: 626px;
+  height: 640px;
+  background: url(../img/big-right.png);
+}
+
+.eu-sect-left,
+.eu-sect-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* !header/footer */
+header {
+  font-family: serif;
+}
+
+.header-list-item {
+  font-weight: 500;
+  color: #224681a0;
+  font-size: 50px;
+  text-align: center;
+}
+
+.header {
+  font-weight: 700;
+  color: #224681a0;
+  font-size: 70px;
+  line-height: 1.46;
+  text-align: center;
+  border: 5px double #5f9391;
+  border-radius: 20px 20px 100px 100px;
+  box-shadow:
+    0 10px 10px 10px #626a6a inset,
+    0 20px 20px 10px #3d4242;
+  background-color: #c8f0f0;
+  outline: 2px solid #00b7ff;
+  margin-bottom: 50px;
+}
+
+footer {
+  display: inline-block;
+  font-family: serif;
+  font-weight: 700;
+  color: #224681a0;
+  font-size: 70px;
+  line-height: 1.46;
+  margin-left: 45%;
+  border: 5px double #5f9391;
+  border-radius: 50%;
+  box-shadow:
+    0 10px 10px 10px #626a6a inset,
+    0 20px 20px 10px #3d4242;
+  background-color: #c8f0f0;
+  outline: 2px solid #00b7ff;
+  padding: 10px;
+}
